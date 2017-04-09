@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 import com.test.java.blocking.queue.CMessage;
 
-public class FutureDemo {
+public class App {
 	
 	private static final ExecutorService threadpool = Executors.newFixedThreadPool( 1 );
 

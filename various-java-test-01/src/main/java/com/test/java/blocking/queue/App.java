@@ -3,7 +3,7 @@ package com.test.java.blocking.queue;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
-public class ProducerConsumerService {
+public class App {
 
 	public static void main(String[] args) {
         
@@ -19,7 +19,7 @@ public class ProducerConsumerService {
         new Thread( consumer ).start();
         
         System.out.println( "Producer and Consumer has been started" );
-        
+		
     }
 	
 }

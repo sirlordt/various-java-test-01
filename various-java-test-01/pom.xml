@@ -9,8 +9,9 @@
   Name: exec-java various-java-test-01 
   Base directory: ${workspace_loc:/various-java-test-01}
   Goal: exec:java -Dexec.mainClass="com.test.java.App" -Dexec.args=""  
-  Goal: exec:java -Dexec.mainClass="com.test.java.future.FutureDemo" -Dexec.args=""  
-  Goal: exec:java -Dexec.mainClass="com.test.java.blocking.queue.ProducerConsumerService" -Dexec.args=""  
+  Goal: exec:java -Dexec.mainClass="com.test.java.future.App" -Dexec.args=""  
+  Goal: exec:java -Dexec.mainClass="com.test.java.blocking.queue.App" -Dexec.args=""  
+  Goal: exec:java -Dexec.mainClass="com.test.java.script.engine.App" -Dexec.args=""  
   
   Remember!!!! In Tab Source Add the source project directory 
  
